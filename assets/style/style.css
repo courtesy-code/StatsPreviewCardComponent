@@ -90,7 +90,7 @@ h1,h2,h3,p{
 .service-description{
     color: var(--txt-color);
     /* font-size: var(--h2-font-size); */
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding-right: 9rem;
     margin-bottom: var(--mb-8);
     line-height: 2rem;
