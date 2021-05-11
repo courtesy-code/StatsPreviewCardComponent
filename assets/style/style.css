@@ -71,7 +71,7 @@ h1,h2,h3,p{
 
 .card-info{
     width: 780px;
-    height: 600px;
+    height: 650px;
     background-color: var(--bg-card);
     padding: var(--mb-7);
     border-radius: 10px 0 0 10px;
@@ -79,7 +79,8 @@ h1,h2,h3,p{
 
 .service-title{
     color: var(--txt-color);
-    font-size: var(--h1-font-size);
+    font-size: 1.7rem;
+    /* font-size: var(--h1-font-size); */
     margin-bottom: var(--mb-3);
 }
 
@@ -89,9 +90,9 @@ h1,h2,h3,p{
 
 .service-description{
     color: var(--txt-color);
-    /* font-size: var(--h2-font-size); */
-    font-size: 1.1rem;
-    padding-right: 9rem;
+    /* font-siz22 var(--h2-font-size); */
+    font-size: 22px;
+    padding-right: 4.5rem;
     margin-bottom: var(--mb-8);
     line-height: 2rem;
 }
@@ -112,12 +113,12 @@ h1,h2,h3,p{
     color: var(--txt-color);
     text-transform: uppercase;
     font-size: var(--normal-font-size);
-    margin-right: var(--mb-6);
+    margin-right: var(--mb-8);
 }
 
 img{
     width: 780px;
-    height: 600px;
+    height: 650px;
     border-radius: 0 10px 10px 0;
 }
 
