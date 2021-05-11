@@ -30,9 +30,9 @@
     --mb-10: 9rem;
 }
 
-@media screen and (min-width: 2021px){
+@media screen and (max-width: 2021px){
     :root{
-    --h1-font-size: 1.3rem;
+    --h1-font-size: 1.5rem;
     --h2-font-size: 1.2rem;
     --h3-font-size: 1.1rem;
     --normal-font-size: 1.05rem;
@@ -50,7 +50,7 @@ html{
 }
 
 body{
-    margin: 10rem;
+    margin: 13rem;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-color: var(--bg);
@@ -66,13 +66,14 @@ h1,h2,h3,p{
     justify-content: center;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .card-info{
-    width: 540px;
-    height: 528px;
+    width: 780px;
+    height: 600px;
     background-color: var(--bg-card);
-    padding: var(--mb-5);
+    padding: var(--mb-7);
     border-radius: 10px 0 0 10px;
 }
 
@@ -87,11 +88,12 @@ h1,h2,h3,p{
 }
 
 .service-description{
-    color: var(--txt-dark);
-    font-size: var(--normal-font-size);
-    padding-right: 1rem;
-    margin-bottom: var(--mb-10);
-    line-height: 1.5rem;
+    color: var(--txt-color);
+    /* font-size: var(--h2-font-size); */
+    font-size: 1.2rem;
+    padding-right: 3.5rem;
+    margin-bottom: var(--mb-8);
+    line-height: 2rem;
 }
 
 .counters-info{
@@ -107,15 +109,15 @@ h1,h2,h3,p{
 }
 
 .counter-desc{
-    color: var(--txt-dark);
+    color: var(--txt-color);
     text-transform: uppercase;
     font-size: var(--normal-font-size);
-    margin-right: var(--mb-5);
+    margin-right: var(--mb-6);
 }
 
 img{
-    height: 100%;
-    width: 100%;
+    width: 780px;
+    height: 600px;
     border-radius: 0 10px 10px 0;
 }
 
@@ -149,7 +151,7 @@ img{
     .service-description{
         text-align: center;
         justify-content: center;
-        font-size: 1.5rem;
+        font-size: 1rem;
         line-height: 2rem;
         margin-bottom: var(--mb-5);
     }
