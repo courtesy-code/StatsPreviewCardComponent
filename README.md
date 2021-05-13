@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](https://i.imgur.com/H9HysyA.png)
+![Desktop](https://i.imgur.com/L4ioll5.png)
 ![Mobile](https://i.imgur.com/7R9dhZ5.png)
 
 ### Links
